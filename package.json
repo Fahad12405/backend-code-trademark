@@ -1,0 +1,23 @@
+{
+  "name": "trademark-gov",
+  "version": "1.0.0",
+  "description": "payment apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Sharjeel Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "stripe": "^17.2.0"
+  },
+  "type": "module"
+}
