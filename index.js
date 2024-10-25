@@ -136,8 +136,8 @@ app.post('/create-checkout-session', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: 'https://trademark-gov.us/success',
-      cancel_url: 'https://trademark-gov.us/cancel',
+      success_url: 'https://trademark-gov.us/success.html',
+      cancel_url: 'https://trademark-gov.us/cancel.html',
       metadata: { // Pass data through metadata
         markName: packege.markName,
         ownershipType: packege.ownershipType,
